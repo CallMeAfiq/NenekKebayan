@@ -1,4 +1,6 @@
-pip install python-telegram-bot
+$ git clone https://github.com/python-telegram-bot/python-telegram-bot
+$ cd python-telegram-bot
+$ python setup.py install
 from typing import Final 
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
