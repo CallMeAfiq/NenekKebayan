@@ -1,4 +1,5 @@
 from typing import Final 
+from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 TOKEN: Final = '6852557784:AAHfLvaD5H-3CHdal6yRYhsnI-vnX35dZx4'
